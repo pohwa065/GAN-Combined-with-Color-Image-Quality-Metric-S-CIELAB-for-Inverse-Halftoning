@@ -1,6 +1,7 @@
 # GAN-Combined-with-Color-Image-Quality-Metric-S-CIELAB-for-Inverse-Halftoning
 ## Introduction
-S-CIELAB is an extension of the CIE Lab* Delta E color difference formula and provides human spatial sensitivity difference between a reference and a corresponding test image. The proposed work is to use S-CIELAB delta E maps as generator perceptual loss in GAN to incorporate human spatial color sensitivity during model training. 
+Inverse halftoning is a process of restoring continuous-tone images from their half-tone versions. The most common evaluation matrix including MSE, PSNR, SSIM, CIELAB. However, these matrices evaluate image quality from pixel level while color sensitivity of human eyes changes as a function of spatial pattern.  S-CIELAB is an extension of the CIE Lab* Delta E color difference formula and provides human spatial sensitivity difference between a reference and a corresponding test image. It is demonstrated that S-CIELAB correlates with perceptual data (human eye judgement) for predicting texture visibility of printed halftone pattern better than the standard CIELAB.  The proposed work is to use S-CIELAB delta E maps as generator perceptual loss in GAN to incorporate human spatial color sensitivity during model training. 
+
 
 ## Feature map
 **VGG19:** Pre-trained deep convolutional neural network  <br>
